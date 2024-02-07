@@ -14,7 +14,7 @@ public class Participation {
 
     private String role;
 
-    private float pourcentage;
+    private Integer pourcentage;
 
     @ManyToOne(optional = false)
   private Projet affectation;

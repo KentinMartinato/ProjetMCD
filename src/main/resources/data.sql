@@ -21,8 +21,8 @@ INSERT INTO Projet(code, debut, fin, nom) VALUES
 (default, '2022-04-27', '2023-08-16', 'restructuration'); 
 
 INSERT INTO Participation(affectation_code, contributeur_matricule, id, pourcentage, role) VALUES
-(1,2,default,0.2,'chef'),
-(1,6,default,0.8,'excecutant'),
-(2,4,default,1,'excecutant'),
-(3,2,default,0.6,'excecutant'),
-(4,5,default,0.5,'chef');
+(1,2,default,20,'chef'),
+(1,6,default,80,'excecutant'),
+(2,4,default,100,'excecutant'),
+(3,2,default,60,'excecutant'),
+(4,5,default,50,'chef');
